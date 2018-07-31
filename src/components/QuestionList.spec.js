@@ -20,8 +20,8 @@ describe("The Question List", () => {
     expect(40 + 2).toEqual(42);
   });
 
-  it("should be the meaning of life", () => {
-    expect(40 + 2).toEqual(42);
+  it.skip("should be the meaning of life", () => {
+    expect(40 + 2).toEqual(43);
   });
 
 });
